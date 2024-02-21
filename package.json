@@ -1,6 +1,7 @@
 {
-  "name": "defectovnet.ru",
+  "name": "max-malkov.ru",
   "version": "1.0.0",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
