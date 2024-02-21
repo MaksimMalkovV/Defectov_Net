@@ -50,7 +50,7 @@ const Services = () => {
           <h1>
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business.
           </h1>
-          <a href="Contact#Contact">
+          <a href="#Contact">
             <button>WHAT AM I DOING?</button>
           </a>
 
@@ -65,7 +65,7 @@ const Services = () => {
           <p>
             I will help you create a website according to your requirements.
           </p>
-          <a href="Contact#Contact">
+          <a href="#Contact">
             <button>Go</button>
           </a>
         </motion.div>
@@ -78,7 +78,7 @@ const Services = () => {
             I will create web applications tailored to your requirements
             to attract customers and improve your sales.
           </p>
-          <a href="Contact#Contact">
+          <a href="#Contact">
             <button>Go</button>
           </a>
         </motion.div>

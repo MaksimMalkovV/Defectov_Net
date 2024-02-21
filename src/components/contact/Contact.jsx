@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "mail.max-malkov.ru",
-        "template_2ig8mhq",
+        "service_agmz927",
+        "template_z00cf9h",
         formRef.current,
-        "gLOthdPN_de4isv1i"
+        "XBVSWYpfp42LRkbqB"
       )
       .then(
         (result) => {

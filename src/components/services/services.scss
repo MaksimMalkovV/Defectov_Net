@@ -108,6 +108,7 @@
     @include mobile {
       flex-direction: column;
       width: 100%;
+      align-items: center;
     }
 
     .box {
@@ -121,8 +122,15 @@
       @include mobile {
         border: none;
         align-items: center;
+        justify-content: center;
         gap: 20px;
         padding: 10px;
+      }
+
+      h2{
+        @include mobile {
+          text-align: center;
+        }
       }
 
       p {
@@ -144,7 +152,7 @@
           border: 1px solid orange;
           border-radius: 5px;
           color: orange;
-          width: 50%;
+          width: 50vw;
           padding: 5px;
         }
       }
