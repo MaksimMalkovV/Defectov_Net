@@ -34,65 +34,51 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          Мы заботимся об авто наших клиентов
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/polir.jpg" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "#F20519" }}>Лучшее</motion.b> решение
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "#615CF2" }}>Для Вашего</motion.b> авто.
           </h1>
           <a href="#Contact">
-            <button>WHAT AM I DOING?</button>
+            <button >Что мы делаем?</button>
           </a>
-
         </div>
       </motion.div>
+
       <motion.div className="listContainer" variants={variants}>
+        <div
+          className="box"
+        >
+            <img src="/polishing.jpg" />
+            <h2>Полировка авто</h2>
+        </div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web development</h2>
-          <p>
-            I will help you create a website according to your requirements.
-          </p>
-          <a href="#Contact">
-            <button>Go</button>
-          </a>
+          <img src="/wax.jpg" />
+          <h2>Покрытия для авто</h2>
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web application development</h2>
-          <p>
-            I will create web applications tailored to your requirements
-            to attract customers and improve your sales.
-          </p>
-          <a href="#Contact">
-            <button>Go</button>
-          </a>
+          <img src="/glass_polishing.jpg" />
+          <h2>Полировка стекл</h2>
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Improvement of your application/website</h2>
-          <p>
-            I will optimize your website or application, fix bugs so that your business attracts more and more clients.
-          </p>
-          <a href="Contact#Contact">
-            <button>Go</button>
-          </a>
+          <img src="/preparation.jpg" />
+          <h2>Предпродажная подготовка</h2>
         </motion.div>
       </motion.div>
     </motion.div>

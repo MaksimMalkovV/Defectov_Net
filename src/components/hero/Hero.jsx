@@ -47,21 +47,21 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>MAKCIM MALKOV</motion.h2>
+          <motion.h2 variants={textVariants}>ДЕФЕКТОВ НЕТ 37</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web and Backend Developer
+            Восстановим и сохраним внешний вид кузова и салона вашего автомобиля
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="#Portfolio">
+            <a href="#Contact">
               <motion.button variants={textVariants}>
-                See the Latest Works
+                Позвони нам
               </motion.button>
             </a>
-            <a href="#Contact">
-              <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a href="https://dikidi.ru/#widget=152450">
+              <motion.button variants={textVariants}>Онлайн-запись</motion.button>
             </a>
           </motion.div>
-          <motion.img
+          <motion.imgdddd
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
@@ -75,11 +75,8 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Content Creator Influencer Developer Detailer
+        чистка кузова полировка ремонт стекл покрытия для кузова
       </motion.div>
-      <div className="imageContainer">
-        <img src="/hero.png" alt="" />
-      </div>
     </div>
   );
 };

@@ -3,6 +3,12 @@
 .navbar {
   height: 100px;
 
+  .logo_img{
+    padding-left: 100px;
+    max-height: 50px;
+    max-width: 250px;
+  }
+
   .wrapper {
     max-width: 1366px;
     margin: auto;
@@ -10,6 +16,8 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+
+    
 
     @include mobile {
       justify-content: flex-end;
