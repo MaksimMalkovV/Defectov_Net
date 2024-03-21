@@ -61,7 +61,7 @@ const Hero = () => {
               <motion.button variants={textVariants}>Онлайн-запись</motion.button>
             </a>
           </motion.div>
-          <motion.imgdddd
+          <motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"

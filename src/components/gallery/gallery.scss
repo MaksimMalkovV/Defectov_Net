@@ -1,8 +1,8 @@
 @import "../../app.scss";
 
 .gallery {
-    background: radial-gradient(ellipse farthest-corner at 90% 0%, hsla(246, 77%, 45%, 0.4), hsla(0, 0%, 9%, 0)),
-        radial-gradient(ellipse farthest-corner at 0% 50%, hsla(356, 95%, 48%, 0.5), hsla(0, 0%, 9%, 0)), ;
+    background: radial-gradient(ellipse farthest-corner at 20% 35%, hsla(339, 100%, 26%, 0.9) 10%, hsla(345, 100%, 1%, 0) 35%),
+    radial-gradient(ellipse farthest-corner at 80% 60%, hsla(226, 100%, 19%, 1) 10%, hsla(345, 100%, 1%, 0) 35%),;
     height: 100%;
     display: flex;
     flex-direction: column;

@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="social">
           <a href="https://t.me/Max_Mal20"><img src="/telegram.png" alt="Telegram" /></a>
           <a href="https://vk.com/defectovnet37"><img src="/VK.png" alt="VKontacte" /></a>
-          <a href="https://www.avito.ru/user/ada06bdea0bfcd48b4365a9a1a4dbd95/profile/all/predlozheniya_uslug?id=2639898600&src=item&page_from=from_item_card&iid=2639898600&sellerId=ada06bdea0bfcd48b4365a9a1a4dbd95"><img src="/avito.png" alt="Avito" /></a>
+          <a href="https://www.avito.ru/user/70b3840458cf3f2cf774b59c85b3393f/profile/all/predlozheniya_uslug?id=2639898600&src=item&page_from=from_item_card&iid=2639898600&sellerId=70b3840458cf3f2cf774b59c85b3393f"><img src="/avito.png" alt="Avito" /></a>
         </div>
       </div>
     </div>
